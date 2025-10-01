@@ -1,4 +1,17 @@
 # Project exclude paths
-/target/
-.idea
-.iml
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# OneDrive temp files
+~$*
